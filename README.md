@@ -1,5 +1,7 @@
 # Descrição do projeto
 
+Desenvolvido num grupo de 2 com Mafalda Duarte.
+
 Neste projeto recebemos dados de vários sensores ligados a um Raspberry Pi, com informações sobre a temperatura, a luminosidade, a pressão, a humidade do ar e a energia consumida tanto em peak hours como em off-peak hours. 
 
 Estes dados vão ser publicados para um MQTT broker, onde este efetua uma ligação entre o publisher e o subscriber.
