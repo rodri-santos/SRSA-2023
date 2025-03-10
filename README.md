@@ -2,7 +2,7 @@
 
 Neste projeto recebemos dados de vários sensores ligados a um Raspberry Pi, com informações sobre a temperatura, a luminosidade, a pressão, a humidade do ar e a energia consumida tanto em peak hours como em off-peak hours. 
 
-Estes dados vão ser publicados para um mqtt broker, onde este efetua uma ligação entre o publisher e o subscriber.
+Estes dados vão ser publicados para um MQTT broker, onde este efetua uma ligação entre o publisher e o subscriber.
 
 Guardamos os nossos dados numa database do InfluxDB Cloud2.0 onde vamos ter vários measurements, um para cada variável enviada pelos sensores.
 
